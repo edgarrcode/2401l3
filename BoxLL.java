@@ -1,13 +1,13 @@
 public class BoxLL {
-  private Box theBook;
-  private BoxLL next;
+  private Box theBox;
+  public BoxLL next;
   
   //constructors
   public BoxLL() {
   }
   
   public BoxLL(Box newTheBox, BoxLL newNext) {
-    theBook = newTheBook;
+    theBox = newTheBox;
     next = newNext;
   }
   
